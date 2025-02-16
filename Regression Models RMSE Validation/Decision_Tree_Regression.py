@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 
 # Load the dataset
-data = pd.read_csv(r"C:\Users\birar\OneDrive\Desktop\SRM\ML PROJECT )\Chennai (1).csv")
+data = pd.read_csv(r"D:\Madhavan's One Drive\OneDrive\SRM\projects\value_vision_ml\Chennai.csv")
 
 # Select relevant numeric features for regression
 numeric_features = ['Area', 'No. of Bedrooms', 'Resale', 'MaintenanceStaff', 'Gymnasium', 
