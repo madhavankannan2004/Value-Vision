@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-data = pd.read_csv(r"C:\Users\birar\OneDrive\Desktop\SRM\ML PROJECT )\Chennai (1).csv")
+data = pd.read_csv(r"D:\Madhavan's One Drive\OneDrive\SRM\projects\value_vision_ml\Chennai.csv")
 
 # Convert the 'Price' column into a binary variable (e.g., 0 if price < median, 1 if price >= median)
 median_price = data['Price'].median()
